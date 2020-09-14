@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "intmed"
+    }
+  },
+  "defaultProject": "intmed",
+  "cli": {
+    "analytics": "9672c95a-8bf9-4098-9d7a-6a3d30de8d14"
+  }
 }
