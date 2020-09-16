@@ -10,7 +10,7 @@ const routes: Routes = [
     // { path: 'user/:userName', component: PhotoListComponent },
     
     { path: 'photos', component: PhotoListComponent },
-    { path: 'photo/add', component: PhotoFormComponent },
+    // { path: 'photo/add', component: PhotoFormComponent },
     { path: '**', component: NotfoundComponent }
 ];
 
