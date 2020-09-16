@@ -1,3 +1,4 @@
+import { HomeModule } from './home/home.module';
 import { ErrosModule } from './erros/erros.module';
 import { PhotoModule } from './photos/photo.module';
 import { BrowserModule } from '@angular/platform-browser';
@@ -11,12 +12,13 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PhotoModule,
+    HomeModule,
     ErrosModule,
     HttpClientModule
   ],
